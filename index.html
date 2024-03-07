@@ -10,10 +10,17 @@
 </head>
 <body>
     <div id="header">
-        <label for='search'><input type="text" id="search" name="search"></label>
-        <span class="material-symbols-outlined" id="searchIcon">
-            Search
-        </span>
+        <div class="searchBar">
+            <label for='search'><input type="text" id="search" name="search"></label>
+            <span class="material-symbols-outlined" id="searchIcon">
+                Search
+            </span>
+        </div>
+        <div class="sliderContainer">
+            <p>Weirdness Scale</p>
+            <input  type="range" min="1" max="10" value="1" class="slider" id="myRange">
+            <output id="slideOutput"></output>
+        </div>
     </div>
     <div id="container">
         <img id="image" src="#">
